@@ -10,7 +10,7 @@ var config = {
 firebase.initializeApp(config);
 
 angular
-.module('app', ['ui.router','firebase','ui-notification', 'ui-bootstrap','app.home'])
+.module('app', ['ui.router','firebase','app.home','ui-notification'])
 .config(function($urlRouterProvider){
   $urlRouterProvider.otherwise('/');
 });

@@ -13,6 +13,6 @@ angular
     url: '/',
     controller: 'rsvpController',
     templateUrl: 'app/components/rsvp/rsvp.html' //added index.html - didnt seem ton work
-  })
+  });
 
-})
+});

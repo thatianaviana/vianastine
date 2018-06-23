@@ -19,7 +19,7 @@ angular
       name: '',
       email: '',
     };
-    // Notification.success({message: "Thanks for the Reply!"})
+    Notification.success({message: "Thanks for the Reply!"})
   }
 
   // $scope.youGotIt = function(){
