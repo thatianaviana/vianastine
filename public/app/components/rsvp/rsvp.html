@@ -13,9 +13,9 @@
       <div class="col-md-3 col-sm-4">
 
         <div class="form-group niceBackground">
-          <label for="rsvp" class="sr-only" ng-model="attendence.rsvp">RSVP</label>
+          <label for="rsvp" class="sr-only" >RSVP</label>
           <label>Are you attending?</label>
-          <select>
+          <select ng-model="attendance.rsvp">
             <option value="yes">YES</option>
             <option value="no">NO</option>
           </select>

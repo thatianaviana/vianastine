@@ -17,7 +17,7 @@ angular
   }
 
   $scope.submit = function() {
-    console.log("is this working?");
+    console.log($scope.attendance);
     ref.push($scope.attendance);
     $scope.attendance = {
       rsvp: '',
