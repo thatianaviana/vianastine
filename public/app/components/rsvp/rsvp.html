@@ -1,0 +1,46 @@
+<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+        <h2>Are You Attending?</h2>
+        <p></p>
+      </div>
+    </div>
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <form class="form-inline">
+      <div class="col-md-3 col-sm-4">
+
+        <div class="form-group niceBackground">
+          <label for="rsvp" class="sr-only" ng-model="attendence.rsvp">RSVP</label>
+          <label>Are you attending?</label>
+          <select>
+            <option value="yes">YES</option>
+            <option value="no">NO</option>
+          </select>
+        </div>
+
+      </div>
+      <div class="col-md-3 col-sm-4">
+
+        <div class="form-group">
+          <label for="name" class="sr-only">Name</label>
+          <input type="name" class="form-control" ng-model="attendance.name" id="name" placeholder="Name">
+        </div>
+
+      </div>
+      <div class="col-md-3 col-sm-4">
+        <div class="form-group">
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" class="form-control" ng-model="attendance.email" id="email" placeholder="Email">
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4" class="text-center">
+        <button type="submit" class="btn btn-default btn-block" ng-click="submit()">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
