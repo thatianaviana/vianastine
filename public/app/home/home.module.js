@@ -14,10 +14,5 @@ angular
     controller: 'rsvpController',
     templateUrl: 'app/components/rsvp/rsvp.html' //added index.html - didnt seem ton work
   })
-  .state({
-    name: 'adventures',
-    url: '/',
-    templateUrl: 'app/components/adventures/adventures.html' //added index.html - didnt seem ton work
-  })
 
 });
