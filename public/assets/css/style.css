@@ -21,6 +21,17 @@
   border-radius: 5px;
   padding: 8px;
 }
+#fh5co-header {
+    background-image:url('../images/mainpic3.jpg');
+    background-size: cover;
+    background-position: center !important;
+}
+#fh5co-event {
+    background-image:url('../images/party1.jpg');
+    background-size: cover;
+    background-position: -250px 0 !important;
+    background-color: black;
+}
 #fh5co-footer {
   padding: 5px;
 }
@@ -29,5 +40,5 @@ footer {
   padding: 10px;
 }
 img {
-  border-radius: 
+  border-radius:
 }
